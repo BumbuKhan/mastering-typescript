@@ -23,3 +23,17 @@ var me = {
 };
 // me = {} - wont work!
 console.log('me', me);
+var ComplexObj = {
+    name: 'Gurban',
+    canRun: true,
+    doActivity: function () {
+        console.log('learning...');
+    }
+};
+// union type
+var myAge;
+myAge = 26;
+// type checking....
+if (typeof myAge === "number") {
+    console.log('typeof myAge === "number"');
+}
