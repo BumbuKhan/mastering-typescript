@@ -12,3 +12,12 @@ enum Color {
 const myColor: Color = Color.Blue;
 
 console.log(myColor);
+
+// function type
+let multiply: (num1: number, num2: number) => number;
+
+multiply = (a: number, b: number) => {
+    return a * b;
+}
+
+console.log(multiply(2, 3));
