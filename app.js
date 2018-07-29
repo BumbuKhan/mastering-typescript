@@ -37,3 +37,12 @@ myAge = 26;
 if (typeof myAge === "number") {
     console.log('typeof myAge === "number"');
 }
+// never type
+function errorHandler() {
+    throw new Error('Some error...');
+}
+// nullable types
+var canBeNull = 12;
+canBeNull = null;
+var canAlsoBeNull = null;
+canAlsoBeNull = 12;

@@ -59,3 +59,10 @@ if (typeof myAge === "number") {
 function errorHandler(): never {
     throw new Error('Some error...');
 }
+
+// nullable types
+let canBeNull: number | null = 12;
+canBeNull = null;
+
+let canAlsoBeNull = null;
+canAlsoBeNull = 12;
