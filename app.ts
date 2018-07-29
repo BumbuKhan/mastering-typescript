@@ -43,3 +43,8 @@ let ComplexObj: CustomType = {
         console.log('learning...');
     }
 }
+
+// union type
+let myAge: number | string;
+myAge = 26;
+myAge = '26';
