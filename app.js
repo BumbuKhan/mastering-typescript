@@ -16,3 +16,10 @@ multiply = function (a, b) {
     return a * b;
 };
 console.log(multiply(2, 3));
+// object types
+var me = {
+    name: "Gurban",
+    age: 26
+};
+// me = {} - wont work!
+console.log('me', me);

@@ -21,3 +21,25 @@ multiply = (a: number, b: number) => {
 }
 
 console.log(multiply(2, 3));
+
+// object types
+let me: { name: string, age: number } = {
+    name: "Gurban",
+    age: 26
+}
+
+// me = {} - wont work!
+
+console.log('me', me);
+
+
+// type creation
+type CustomType = { name: string, canRun: boolean, doActivity: () => void };
+
+let ComplexObj: CustomType = {
+    name: 'Gurban',
+    canRun: true,
+    doActivity: () => {
+        console.log('learning...');
+    }
+}
